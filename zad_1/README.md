@@ -8,6 +8,6 @@ Proste API z regułą decyzyjną opartą na sumie dwóch liczb. Serwis obsługuj
 
 ## Uruchomienie
 - Lokalnie: `pip install -r requirements.txt && python app.py`
-- Docker: `docker build -t decision-rule-api . && docker run -p 5000:5000 decision-rule-api`
+- Docker: `docker build -t decision-rule-api . && docker run -p 8080:8080 decision-rule-api`
 
 API obsługuje metody GET i POST, zwracając wynik w JSONie z kluczami "prediction" i "features".
